@@ -14,7 +14,7 @@
 ## Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.Ashusnu:CustomProgressView:1.1'
+	        implementation 'com.github.Ashusnu:CustomProgressView:1.2'
 	}
   
   
@@ -29,3 +29,5 @@
   6) setCenterText(String centerText)				- > Add text to center of progress view:
   7) setTextSize(int textSize)					- > Set size of the center text. Default size is TEXT_SIZE_MEDIUM:
   8) setTextColor(int color)					- > Set color of centered text. Default color is #F50057
+  9) setProgressType(TYPE progressType)				- > Set Progress Type Options(BASIC_CIRCULAR,DISK_RING,LINE_PROGRESS)
+  								     Default will be BASIC_CIRCULAR:
